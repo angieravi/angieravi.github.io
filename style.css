@@ -1,0 +1,150 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    background-image: url("pinkbg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    /* Set default text color */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+h1.title {
+    font-size: 4em;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+h2.heading {
+    font-size: 1em;
+    margin-top: -615px;
+    text-decoration: underline;
+}
+
+.yourclasshere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -400px;
+    text-align: center;
+}
+
+.yourclasshere p {
+    line-height: 1.6;
+    max-width: 900px;
+    /* Limit the width of paragraphs */
+    margin: 0 auto;
+    /* Center paragraphs within the container */
+}
+
+.projects-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 175px;
+    background-color: #ffb6c1;
+    /* Set background color for the projects section */
+    color: #333;
+    /* Set text color */
+}
+
+.projects-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 20px;
+    /* Increase spacing between projects */
+}
+
+.project a {
+    display: flex;
+    align-items: center;
+    /* Align image and text vertically */
+    text-decoration: underline;
+    color: #333;
+    /* Set link color */
+}
+
+.project-image {
+    max-width: 200px;
+    /* Set a fixed width for the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-left: 500px;
+    margin-right: 800px;
+    /* Add space to the right of the image */
+}
+
+.project a span {
+    margin-left: -750px;
+    /* Adjust the margin to move the text closer to the image */
+}
+
+.more-about-me {
+    text-align: center;
+    padding: 50px;
+    margin-top: 175px;
+    background-color: #ff9999;
+    /* Set background color for the more-about-me section */
+    color: #333;
+    /* Set text color */
+}
+
+.more-about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.about-me-content {
+    margin-bottom: 30px;
+}
+
+.about-me-image {
+    max-width: 300px;
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    /* Add space below the image */
+}
+
+.contact-me {
+    text-align: center;
+    text-decoration: underline;
+    padding: 50px;
+    margin-top: 175px;
+    background-color: #660033;
+    /* Set background color for the contact-me section */
+    color: #fff;
+    /* Set text color */
+}
+
+.contact-me h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+}
+
+.contact-image {
+    max-width: 100px;
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    /* Add space below the image */
+}
